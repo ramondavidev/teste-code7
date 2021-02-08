@@ -4,6 +4,7 @@ const router = express.Router();
 const Debt = require('../models/debt');
 const User = require('../models/user');
 
+//return all debt
 router.get('/', async(req, res) => {
     const debts = await Debt.find();
     return res.json(debts);

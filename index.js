@@ -8,6 +8,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
+//config DB
 const connectDB = async () => {
     try {
         await mongoose.connect('mongodb+srv://ramon742:zxc123@personalprojects.hhiuu.mongodb.net/<dbname>?retryWrites=true&w=majority', {

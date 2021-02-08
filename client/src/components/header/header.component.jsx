@@ -7,11 +7,11 @@ const Header = () => {
         <div className='header'>
             <div className='header-container'>
 
-                    <Link className='nav-link' to='/'>Home</Link>
+                <Link className='nav-link' to='/'>Home</Link>
 
-                    <Link className='nav-link' to='/clientes'>Clientes</Link>
+                <Link className='nav-link' to='/clientes'>Clientes</Link>
 
-                    <Link className='nav-link' to='/adicionar-divida'>Adicionar Dívida</Link>
+                <Link className='nav-link' to='/adicionar-divida'>Adicionar Dívida</Link>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ router.get('/', async(req, res) => {
     return res.json(users);
 });
 
-//
+//add user
 router.post('/', async (req, res) => {
     try {
         const { id, name, email } =  req.body;
