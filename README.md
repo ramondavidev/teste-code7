@@ -1,5 +1,8 @@
 # teste-code7
 
+## Requisitos para execução
+Ter baixado nodejs na sua máquina
+
 ## Execução
 1. Baixe ou clone o reposotório na sua máquina.
 2. Através do command-line vá para o repositório e instale as dependências com o seguinte comando: npm install (instalará as dependências do back).
