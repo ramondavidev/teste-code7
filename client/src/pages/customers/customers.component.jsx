@@ -16,10 +16,10 @@ const Customers = ({ customers: { customers }, getUsers, uploadUsers }) => {
 
     return (
         <div className='customers margin-t80'>
-            <h1>Página de clientes</h1>
+            <h1 style={{marginLeft: '20px'}}>Página de clientes</h1>
             {
                 customers && !customers.length > 0 && (
-                    <div>
+                    <div style={{marginLeft: '20px'}}>
                         <h3>Click no botão abaixo para cadastrar os 10 usuários do <a href="https://jsonplaceholder.typicode.com/users">https://jsonplaceholder.typicode.com/users</a> no banco de dados</h3>
                         <button onClick={() => uploadUsers()}>Adicionar usuário no DB</button>
                     </div>
@@ -32,7 +32,7 @@ const Customers = ({ customers: { customers }, getUsers, uploadUsers }) => {
                 ))
                 : 
                 <div>
-                    <h2>Não há usuários cadastrados no DB</h2>
+                    <h2 style={{marginLeft: '20px'}}>Não há usuários cadastrados no DB</h2>
                 </div>
             }
         </div>
