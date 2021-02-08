@@ -20,7 +20,7 @@ const ShowDebt = ({ customerDebts, returnDebtsFromUser, match }) => {
             ))
             :
             <h1>
-                Não há dívidas cadastradas para este usuário
+                Não há dívidas cadastradas para essa pessoa
             </h1>
         }
         </div>

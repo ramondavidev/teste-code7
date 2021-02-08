@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './home.styles.scss';
 
 
@@ -13,7 +15,7 @@ const Home = () => {
                     <div className='store-name'>Tecnologias</div>
                     <span className='second-sentence'>Tecnologias usadas no front: Reactjs, redux e sass. <br/> Tecnologias usadas no back: Node, express e MongoDB.</span>
                     <a href='/produtos' className='link'>
-                        <button className='btn'>Comece a comprar</button>
+                        <Link to='/clientes'><button className='btn'>Página de cliente</button></Link>
                     </a>
                 </div>
             </div>

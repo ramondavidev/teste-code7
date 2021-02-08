@@ -38,7 +38,7 @@ const EditDebt = ({ match, editDebt }) => {
 
     return (
         <div className='margin-t80 add-debt'>
-            <h2>Editar Dívida</h2>
+            <h2 style={{textAlign: 'center'}}>Editar Dívida</h2>
             <div className='form-container'>
                 <form onSubmit={onSubmit}>
                     <div className>

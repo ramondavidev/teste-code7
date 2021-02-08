@@ -17,6 +17,8 @@ const Customers = ({ customers: { customers }, getUsers, uploadUsers }) => {
     return (
         <div className='customers margin-t80'>
             <h1 style={{marginLeft: '20px'}}>Página de clientes</h1>
+            {customers && customers.length > 0 && <h2 style={{marginLeft: '20px'}}>Click em um cliente para exibir as dívidas relacionadas a ele</h2>}
+        
             {
                 customers && !customers.length > 0 && (
                     <div style={{marginLeft: '20px'}}>
