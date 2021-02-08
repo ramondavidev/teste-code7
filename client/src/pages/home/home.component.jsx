@@ -14,9 +14,7 @@ const Home = () => {
                     </span>
                     <div className='store-name'>Tecnologias</div>
                     <span className='second-sentence'>Tecnologias usadas no front: Reactjs, redux e sass. <br/> Tecnologias usadas no back: Node, express e MongoDB.</span>
-                    <a href='/produtos' className='link'>
                         <Link to='/clientes'><button className='btn'>Página de cliente</button></Link>
-                    </a>
                 </div>
             </div>
         </div>
